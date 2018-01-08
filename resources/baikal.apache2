@@ -2,7 +2,7 @@ ServerName calendar.example.org
 
 <VirtualHost *:80>
 	DocumentRoot /var/www/calendar_server/html
-	ServerName calendar.example.org
+	ServerName calendar.localhost
 	
     RewriteEngine On
     RewriteRule /.well-known/carddav /dav.php [R,L]
